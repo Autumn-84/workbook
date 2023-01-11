@@ -1,0 +1,38 @@
+/* 通用样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.content {
+	width: auto;
+	background: #bfedfc;
+	margin: 4px 10px;
+	padding: 20px;
+}
+.content .title {
+	font-size: 16px;
+	font-weight: normal;
+	border-right: 2px solid #bbb;
+	padding-right: 20px;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+.content .list {
+	list-style: none;
+	margin-left: 30px;
+	height: 30px;
+	/* border: 1px solid; */
+	line-height: 30px;
+	overflow: hidden;
+}
