@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style: none;
+}
+h2 {
+	font-size: 100%;
+	font-weight: normal;
+}
+.menu-container {
+	width: 200px;
+	margin: 20px auto;
+	line-height: 30px;
+}
+.menu-container h2 {
+	height: 30px;
+	padding: 0 25px;
+	background: lightblue;
+}
+.menu {
+	margin: 20px 0;
+}
+.submenu {
+	background: #d9eff6;
+	padding: 0 30px;
+	height: 0;
+	overflow: hidden;
+}
+.submenu li {
+	height: 30px;
+}
